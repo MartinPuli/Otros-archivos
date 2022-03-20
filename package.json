@@ -1,0 +1,24 @@
+{
+  "name": "hi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss Proyecto/Assets/scss/styles.scss Proyecto/Assets/css/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+  },
+  "keywords": [],
+  "author": "Martin Pulitano",
+  "license": "ISC",
+  "description": "Proyecto",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
